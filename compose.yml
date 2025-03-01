@@ -1,0 +1,7 @@
+services:
+  apache:
+    image: httpd:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - C:\Users\katri\study\ufrn\projeto_2_web1\:/usr/local/apache2/htdocs
